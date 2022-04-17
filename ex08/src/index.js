@@ -1,6 +1,4 @@
-const product = (... rest) =>{
-    const args = [... rest];
- 
+const product = (...args) =>{
     return args.reduce((a,b) => a * b, 1);
 }
 
