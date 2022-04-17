@@ -1,4 +1,4 @@
-var arena = () => {
+const arena = () => {
     "use strict";
     return new Date();
 }
